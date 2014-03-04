@@ -2,8 +2,70 @@ I just dumped a bunch of content from the forum on here, now time to organize
 
 
 
+What is a DAC?
+==============
 
-What is ProtoShares?
+
+BitShares PTS ("ProtoShares")?
+=======================================
+
+
+Owning BitShares PTS is a way to acquire future BitShares and speculate on their value today!
+
+
+What is BitShares PTS?
+BitShares PTS is a class of crypto-currency that let you capture a position in one or more cool new DACs before they are ever implemented. The speculative value of PTS is a subjective mix of three market 
+perception pillars. These pillars are the market’s assessment of:
+
+• The speculative value of a future DAC share.
+• The probability that the DAC can and will be successfully fielded.
+• Confidence that the PTS will map to an equitable share in the implementation.
+
+... summed across all DACs that announce there intention to honor PTS holders with shares when launched.
+
+Developers use BitShares PTS to capture early adopter interest in their new idea. 
+
+Investors use PTS to get in on the ground floor of an entire new industry.  Instead of enduring the hassles and costs of mining every new DAC into existence, they focus on acquiring PTS once and for all, and thereby claim a stake in every new DAC that honors BitShares PTS.
+
+Developers and Investors start on a level playing field for obtaining BitShares PTS. They are being slowly mined and easily accessible from public exchanges as one of the top crypto-currencies on the market.
+
+What about that Third Pillar?
+
+The third Public Perception Pillar is confidence that owning a DAC’s PTS will translate into 
+actual ownership of an equitable share in the objective DAC. It is up to the DAC developer to convince 
+the market that this will happen using whatever social consensus the market will accept. The PTS Social Consensus is simply:
+
+Quote
+At our DAC’s pre-published launch time, a DAC’s genesis block shall be initialized
+to precisely match the current unspent outputs of the corresponding BitShares PTS blockchain.
+
+For every BitShares PTS proto-share you hold at that launch time, you now have a corresponding 
+share in the DAC accessible via the same public address to which you hold a private key. 
+
+That’s it. Simple. Easy to understand. Real hard to renege.
+
+You can read about the latest, more general form here:  http://invictus-innovations.com/social-consensus/
+
+What do you mean “real hard to renege” on your social consensus? 
+
+Who would want to abandon the entire universe of informed early adopters by reneging on their rights as 
+founding shareholders? In this business, the network effect of market share is everything. Besides, if 
+someone deploys an open-source DAC without honoring the social contract to its PTS holders,
+someone else will simply fork the open source code, and honor that contract. Bingo, they’re in business! 
+The network effect of informed early adopters will do the rest and the reneging developer’s implementation 
+will go into the dustbin of history.
+
+BitShares PTS were designed to be mined into existence according to the curves below.  This has been considerably accelerated in practice by the overwhelming amount of interest from the mining community.
+
+
+
+picture: http://the-iland.net/static/images/ProtoSharesMoneySupply.png
+
+
+
+
+
+
 
 ProtoShares is a class of crypto-currency that let you capture a position in one or more new DACs before 
 they are even implemented. The speculative value of a DACs ProtoShares is a subjective mix of three market 
@@ -15,46 +77,11 @@ perception pillars. These pillars are the market’s assessment of:
 
 So owning Protoshares gives you a share in future DACs. for more in depth info, go here https://bitsharestalk.org/index.php?topic=5.0
 
-What is AngelShares? 
 
-AngelShares is a crowd funding operation that works to support the development of DACs. It functions like a mining pool where every day shares are mined and divided among contributors proportional to how much they contributed. Rather than hash-power based proof-of-work like Bitcoin based Digital Currencies, AGS uses money as a reusable PoW making it an efficient resource-light community operation that does not divert hash power used to secure Protoshares.
 
-Like ProtoShares, they represent a way to gain a stake in the new crypto-equity industry. ProtoShares acknowledge a contribution to the launch of the new industry, representing a proof of work done in generating public interest. AngelShares acknowledge an equally important financial contribution to the industry infrastructure.
 
-What is Bitshares
 
-BitShares is the first Decentralized Autonomous Company (DAC) and represents a whole family of such DACs. The companies can vary from unmanned banks and exchanges to online gaming and gambling. It is in development and is intended to be a Decentralized Bank. see here http://invictus-innovations.com/bitshares2
 
-How to get ProtoShares and AngelShares?
-
-To get started Protoshares you need to download the client 
-
-for linux users https://github.com/InvictusInnovations/ProtoShares
-
-or use this script (much easier) Tested on Ubuntu(my personal favourite) 
-
-Code: [Select]
-sudo apt-get update && sudo apt-get install git make g++ build-essential libminiupnpc-dev libboost-all-dev libdb++-dev libgmp-dev libssl-dev dos2unix
-git clone https://github.com/InvictusInnovations/ProtoShares
-cd Protoshares/src
-make -f makefile.unix
-echo "rpcuser=[youruser]" >> ~/.protoshares/protoshares.conf
-echo "rpcpassword=[yourpass]" >> ~/.protoshares/protoshares.conf
-./bitcoind -daemon
-./bitcoind setgenerate true 3
-
-for windows users http://the-iland.net/static/downloads/ProtoShares-0.4.0.zip will give you the QT version, just run it and you will have your client.
-
-for mac users http://invictus-innovations.com/downloads/
-
-The new clients have hard coded seed nodes and connect to the network almost instantly. The fix was a combined effort between bytemaster, toast Freetrade and myselft to provide users with a more enjoyable hassle free experience.
-
-I would suggest an optimized miner since the difficulty of the network has reached a point where you are unlikely to ever solo-mine a block unless you happen to use the tian-he super computer. 
-
-What is an optimized Miner?
-
-An optimized miner is a standalone miner that has greater performance, meaning it mines faster than the client. 
-There are many in existence and you can see them here https://bitsharestalk.org/index.php?board=11.0 most however are locked to a specific pool. 
 
 
 Why must I withdraw my PTS to a PTS wallet?
@@ -130,9 +157,6 @@ Note: Compare this to being able to buy a piece of every future internet based c
 
 More answers will be added to this FAQ as information come to light. If you feel something needs to be added, comment and let me know. 
 
-Tips for FAQ writers:
-PiNEJGUv4AZVZkLuF6hV4xwbYTRp5etWWJ
-PhVq6eidddft6Ut3dcC3RsFWYQskdmK7US
 
 
 
@@ -142,57 +166,15 @@ PhVq6eidddft6Ut3dcC3RsFWYQskdmK7US
 
 
 
-Owning BitShares PTS is a way to acquire future BitShares and speculate on their value today!
-
-
-What is BitShares PTS?
-BitShares PTS is a class of crypto-currency that let you capture a position in one or more cool new DACs before they are ever implemented. The speculative value of PTS is a subjective mix of three market 
-perception pillars. These pillars are the market’s assessment of:
-
-• The speculative value of a future DAC share.
-• The probability that the DAC can and will be successfully fielded.
-• Confidence that the PTS will map to an equitable share in the implementation.
-
-... summed across all DACs that announce there intention to honor PTS holders with shares when launched.
-
-Developers use BitShares PTS to capture early adopter interest in their new idea. 
-
-Investors use PTS to get in on the ground floor of an entire new industry.  Instead of enduring the hassles and costs of mining every new DAC into existence, they focus on acquiring PTS once and for all, and thereby claim a stake in every new DAC that honors BitShares PTS.
-
-Developers and Investors start on a level playing field for obtaining BitShares PTS. They are being slowly mined and easily accessible from public exchanges as one of the top crypto-currencies on the market.
-
-What about that Third Pillar?
-
-The third Public Perception Pillar is confidence that owning a DAC’s PTS will translate into 
-actual ownership of an equitable share in the objective DAC. It is up to the DAC developer to convince 
-the market that this will happen using whatever social consensus the market will accept. The PTS Social Consensus is simply:
-
-Quote
-At our DAC’s pre-published launch time, a DAC’s genesis block shall be initialized
-to precisely match the current unspent outputs of the corresponding BitShares PTS blockchain.
-
-For every BitShares PTS proto-share you hold at that launch time, you now have a corresponding 
-share in the DAC accessible via the same public address to which you hold a private key. 
-
-That’s it. Simple. Easy to understand. Real hard to renege.
-
-You can read about the latest, more general form here:  http://invictus-innovations.com/social-consensus/
-
-What do you mean “real hard to renege” on your social consensus? 
-
-Who would want to abandon the entire universe of informed early adopters by reneging on their rights as 
-founding shareholders? In this business, the network effect of market share is everything. Besides, if 
-someone deploys an open-source DAC without honoring the social contract to its PTS holders,
-someone else will simply fork the open source code, and honor that contract. Bingo, they’re in business! 
-The network effect of informed early adopters will do the rest and the reneging developer’s implementation 
-will go into the dustbin of history.
-
-BitShares PTS were designed to be mined into existence according to the curves below.  This has been considerably accelerated in practice by the overwhelming amount of interest from the mining community.
 
 
 
-picture: http://the-iland.net/static/images/ProtoSharesMoneySupply.png
+What are AngelShares? 
+=====================
 
+AngelShares is a crowd funding operation that works to support the development of DACs. It functions like a mining pool where every day shares are mined and divided among contributors proportional to how much they contributed. Rather than hash-power based proof-of-work like Bitcoin based Digital Currencies, AGS uses money as a reusable PoW making it an efficient resource-light community operation that does not divert hash power used to secure Protoshares.
+
+Like ProtoShares, they represent a way to gain a stake in the new crypto-equity industry. ProtoShares acknowledge a contribution to the launch of the new industry, representing a proof of work done in generating public interest. AngelShares acknowledge an equally important financial contribution to the industry infrastructure.
 
 
 How to Get Angel Shares
@@ -242,3 +224,11 @@ I have created a google docs XLS sheet to track all expenses paid from the Angel
 https://docs.google.com/a/invictus-innovations.com/spreadsheet/ccc?key=0AqTwk-e7yzJydFZ3bVVWT0o1OUwzXzdESHFBY0FkUWc&usp=sharing
 
 https://docs.google.com/spreadsheet/ccc?key=0AqTwk-e7yzJydDFnQmlkTVlkbWpubnJBbzR2UG5ucnc&usp=sharing
+
+
+
+
+What are Bitshares?
+==================
+
+
